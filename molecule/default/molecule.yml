@@ -13,6 +13,8 @@ platforms:
     tags: puma-server
 provisioner:
   name: ansible
+  options:
+   vvv: true
   lint:
     name: ansible-lint
 verifier:

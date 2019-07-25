@@ -12,9 +12,7 @@ install:
   - pip install molecule apache-libcloud pycrypto
 
 script:
-  - molecule test
-  - molecule converge
-  - molecule verify
+  - molecule --degug test
 
 env:
   matrix:
