@@ -9,7 +9,7 @@ before_install:
   - chmod 0600 /home/travis/.ssh/google_compute_engine
 
 install:
-  - pip install molecule apache-libcloud pycrypto
+  - pip install molecule apache-libcloud pycrypto paramiko
 
 script:
   - molecule --debug test
