@@ -14,7 +14,7 @@ platforms:
 provisioner:
   name: ansible
   options:
-    vvv: true
+    vvv: false
   lint:
     name: ansible-lint
 verifier:
