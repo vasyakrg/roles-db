@@ -2,7 +2,7 @@ language: python
 python:
 - '3.6'
 before_install:
-- openssl aes-256-cbc -K $encrypted_77c99265cdf1_key -iv $encrypted_77c99265cdf1_iv
+- openssl aes-256-cbc -K $encrypted_e261e990e5c8_key -iv $encrypted_e261e990e5c8_iv
   -in secrets.tar.enc -out secrets.tar -d
 - tar xvf secrets.tar
 - mv google_compute_engine /home/travis/.ssh/
